@@ -19,8 +19,8 @@ const ragChat = new RAGChat({
   debug: false,
   model: openai("gpt-3.5-turbo", { organization: process.env.OPENAI_ORGANIZATION }),
   vector: new Index({
-    url: "https://thankful-gorilla-71414-eu1-vector.upstash.io",
-    token: "ABoFMHRoYW5rZnVsLWdvcmlsbGEtNzE0MTQtZXUxYWRtaW5PVFUxTkROaU5UQXRPRE5qTWkwMFltSTFMVGt6TVRVdFpqQTRZakJoTnpRd01XSXo=",
+    url: "https://electric-turtle-5718-us1-vector.upstash.io",
+    token: "ABgFMGVsZWN0cmljLXR1cnRsZS01NzE4LXVzMWFkbWluTkRGa01XSTJORFl0TVRWbFl5MDBZVEl4TFRneVltTXRORFJsTkRZMk1EWmlOakUw",
   }),
   redis,
   promptFn: ({ question, chatHistory, context }) => `
